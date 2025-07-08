@@ -1,9 +1,41 @@
-# Node modules (frontend)
+# ------------------------
+# Python backend
+# ------------------------
+_pycache_/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+*.egg/
+
+# dotenv
+.env
+.env.*
+
+# IDE related
+.vscode/
+.idea/
+
+# ------------------------
+# Node frontend
+# ------------------------
 frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
 
-# Python virtual env (backend)
-backend/venv/
+# Build outputs
+frontend/build/
+frontend/dist/
 
-# .env files
-*.env
-*.env.*
+# Lock files (optional if you want cross-platform)
+yarn.lock
+pnpm-lock.yaml
+
+# macOS junk
+.DS_Store
