@@ -12,10 +12,12 @@ This project uses real-time facial emotion detection to recommend movies based o
 
 ## 🧠 Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Python, Flask
-- **AI/ML:** DeepFace
+- **Frontend:** React, Tailwind CSS
+- **Backend:** FastAPI
+- **AI/ML:** DeepFace(Emotion Detection)
 - **API:** TMDB (The Movie Database)
+- **Tools:** Python, Node.js, Git
+
 
 
 
